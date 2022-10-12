@@ -3,19 +3,17 @@
 
 #include "configurations.h"
 #include "person.h"
+#include "subjects.h"
 typedef struct{
-    char name[maxString];
-    char phone[maxPhoneNumber];
+    char name[MAXSTRING];
+    char phone[MAXPHONENUMBER];
     int ID;
-    int Grade;
     int classNumber;
-    person mother;
-    person father;
-    person* siblings;
-}student;
-// extern global variables used in student.c
-extern int studentNumber;
-extern student students[maxStudents];
+    Subjects grades;
+    Person mother;
+    Person father;
+    Person* siblings;
+}Student;
 //functions prototypes
 void addStudent();
 void findByName();

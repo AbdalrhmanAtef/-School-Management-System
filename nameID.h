@@ -3,7 +3,7 @@
 
 #include "configurations.h"
 typedef struct{
-    char name[maxString];
+    char* name[MAXSTRING];
     int ID;
 } nameID;
 #endif // NAMEID

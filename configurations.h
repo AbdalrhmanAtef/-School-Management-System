@@ -2,8 +2,8 @@
 #ifndef CONFFILE
 #define CONFFILE
 
-#define maxString 50
-#define maxPhoneNumber 20
-#define maxStudents 200
+#define MAXSTRING 50
+#define MAXPHONENUMBER 20
+#define MAXSTUDENTS 200
 
 #endif // CONFFile

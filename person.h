@@ -1,10 +1,10 @@
 #ifndef PERSONFILE
 #define PERSONFILE
-#include "configurations.h"
 
+#include "configurations.h"
 typedef struct{
-    char[maxString] name;
-    char[maxPhoneNumber] phone;
-}person;
+    char name[MAXSTRING];
+    char phone[MAXPHONENUMBER];
+}Person;
 
 #endif
